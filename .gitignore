@@ -2,9 +2,10 @@
 /dist/
 /.git/
 /.idea/
-/readme.html
+readme.html
 /app/css/
 /**/_backstage
 /**/package-lock.json
 /**/Thumbs.db
 /**/*.DS_Store
+.gitignore
