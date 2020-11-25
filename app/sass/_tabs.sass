@@ -1,0 +1,115 @@
+.fade
+  -webkit-animation-name: fade
+    animation-name: fade
+  -webkit-animation-duration: 2.5s
+    animation-duration: 2.5s
+  -webkit-animation-name: fade
+  -webkit-animation-duration: 2.5s
+
+.ash-content
+  .ash-info
+    width: 100%
+    min-height: 580px
+    padding: 50px
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8)
+  .info-header
+    width: 100%
+    height: 50px
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    -webkit-justify-content: space-around
+    -ms-flex-pack: distribute
+    justify-content: space-around
+
+  .info-header-tab
+    color: #c78030
+    font-weight: bold
+    font-size: 24px
+    cursor: pointer
+
+    &:after
+      content: ''
+      display: block
+      width: 0%
+      height: 3px
+      background-color: #c78030
+      margin-top: 4px
+      -webkit-transition: 0.4s
+      transition: 0.4s
+
+    &:hover:after
+      width: 60%
+
+  .info-tabcontent
+    width: 100%
+    display: -webkit-box
+    display: -webkit-flex
+    display: -ms-flexbox
+    display: flex
+    padding-top: 50px
+    -webkit-transition: 0.3s
+    transition: 0.3s
+
+    .description, .photo
+      width: 50%
+
+    .description-title
+      font-size: 34px
+      color: #c78030
+
+      &:after
+        content: ''
+        display: block
+        width: 20%
+        height: 3px
+        background-color: #c78030
+        margin-top: 4px
+
+    .description-text
+      margin-top: 30px
+
+      font-weight: 300
+      padding-right: 20px
+
+    .description-btn
+      width: 180px
+      height: 45px
+      line-height: 43px
+      margin-top: 30px
+      border: 1px solid #c78030
+      font-size: 14px
+      color: #c78030
+      text-transform: uppercase
+      font-weight: bold
+      text-align: center
+      font-weight: 300
+      cursor: pointer
+
+      &:hover
+        box-shadow: 0px 0px 5px #c78030
+
+    .photo
+      display: -webkit-box
+      display: -webkit-flex
+      display: -ms-flexbox
+      display: flex
+      -webkit-box-align: center
+      -webkit-align-items: center
+      -ms-flex-align: center
+      align-items: center
+
+      img
+        width: 100%
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.8)
+
+  .ash-info
+    .hide
+      display: none
+
+    .show
+      display: -webkit-box
+      display: -webkit-flex
+      display: -ms-flexbox
+      display: flex
